@@ -1,9 +1,6 @@
 name: Artifacts at every commit
 on:
-  push:
-    branches:
-      - master
-      - 1.20_feature
+  workflow_dispatch:
 
 jobs:
   release:
