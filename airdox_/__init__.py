@@ -1,1 +1,2 @@
-from plugins import *
+# import all from plugins.py 
+from .plugins import *
